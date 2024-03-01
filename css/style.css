@@ -1,0 +1,147 @@
+@font-face {
+    font-family: StdN W8,sans-serif;
+    src: url(../font/hiragino-kaku-gothic-stdn-w8_6qqjY/Hiragino\ Kaku\ Gothic\ StdN\ W8.otf);
+}
+
+html{
+    font-family: StdN W8,sans-serif;
+}
+
+body{
+   max-width: 1920px;
+   background: url(../scr/pattern-background-desktop.svg) no-repeat;
+   width: 100%;
+}
+
+main{
+    width: 450px;
+    height: 699px;
+    background-color: #FFFFFF;
+    border: 30 px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 1PX 1PX 15px black;
+}
+
+.banner{
+    width:450px;
+    height: 224px;
+
+}
+    
+
+.banner h1{
+    font-size: 0;
+}
+.banner img{
+    width: 100%;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+}
+
+
+.Texto{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Texto h2{
+    color: #0f1222;
+    font-size: 32px;
+}
+
+.Texto p{
+    width: 300px;
+    margin: 0 auto;
+    color: #575757;
+}
+
+.banner-text{
+    background-color: #e7e7e9;
+    width: 350px;
+    height: 99px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.banner-text h2{
+    color: #0f1222;
+}
+
+.banner-text .btn-change{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    
+}
+
+.banner-text .btn-change p{
+    color: #3d2db9;
+}
+
+.banner-text .btn-change :hover{
+    color: #7D74CC;
+}
+
+.banner-text img{
+    width: 50px;
+    position: relative;
+    top: -40px;
+    left: 5px;
+    margin: auto;
+}
+
+.banner-text h2{
+    position: relative;
+    left: 70px;
+    bottom: -30px;
+    font-size: 20px;
+}
+
+.banner-text p{
+    position: relative;
+    left: 70px;
+    bottom: -20px;
+    color: #575757;
+}
+
+
+.btn{
+    background-color: #382AE1;
+    width: 350px;
+    height: 70px;
+    border-radius: 15px;
+    border: 0;
+    color: #FFFFFF;
+    box-shadow: 0.5px 1px 30px gray;
+   
+}  
+.btn{
+    margin:auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: #766CF1;
+}
+
+.btn-cancel{
+    text-align: center;
+    margin-top: 300px;
+    text-decoration: none;
+}
+
+.btn-cancel{
+    color: #7C86A2;
+    
+}
+
+.btn-cancel :hover{
+    color: #262F45;
+}
